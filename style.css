@@ -1,0 +1,15 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+}
+span{
+    color:rgb(254, 0, 0);
+}
+a{
+    list-style: none;
+}
