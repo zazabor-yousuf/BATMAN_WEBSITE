@@ -1,11 +1,16 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    background-image: url(image/u.jpg);
+    background-repeat: no-repeat;
+    background-position:top
 }
 h1{
     font-size: 80px;
+    color: rgb(116, 102, 102);
 }
 h2{
     font-size: 40px;
+    color: lightslategray;
 }
 span{
     color:rgb(254, 0, 0);
@@ -13,6 +18,7 @@ span{
 }
 section{
     display: flex;
+ 
    
 }
 .half{
@@ -20,8 +26,27 @@ section{
 }
 p{
     text-align: justify;
+    color: whitesmoke
+}
+.half p{
+    width: 65%;
 }
 img{
     height: 600px;
     margin-left: 200px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(red, black);
+    color: whitesmoke;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+    font-weight: 400;
+}
+#para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: darkred;
+    font-size: 25px;
 }
